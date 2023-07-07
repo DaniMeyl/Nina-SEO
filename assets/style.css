@@ -133,6 +133,10 @@ body {
 	display: flex;
 	font-size: 24px;
 }
+.img-fluid{
+	width: auto;
+	height: auto;
+}
 
 .quote {
 	font-family: 'Spectral';
