@@ -134,8 +134,7 @@ body {
 	font-size: 24px;
 }
 .img-fluid{
-	width: auto;
-	height: auto;
+	
 	object-fit: cover;
 }
 
