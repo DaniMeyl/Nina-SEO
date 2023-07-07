@@ -2,13 +2,14 @@
     #AddDefaultCharset UTF-8
     AddType 'text/html; charset=UTF-8' html    
     AddType image/webp .webp
-    
+
 <IfModule mod_expires.c>
           ExpiresActive on
           ExpiresByType image/jpg "access plus 20 days"
           ExpiresByType image/png "access plus 20 days"
           ExpiresByType image/gif "access plus 20 days"
           ExpiresByType image/jpeg "access plus 20 days"
+          AddType image/webp .webp
           ExpiresByType image/webp "access plus 1 years"
           ExpiresByType text/css "access plus 1 week"
           ExpiresByType application/x-javascript "access plus 1 week"
